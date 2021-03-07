@@ -35,7 +35,7 @@ namespace CSharpLib
 		private void CallPrintEvent()
 		{
 			Temperatures ??= new Temperature.Temperature.Temperatyre(temperatyre1);
-			EventArgsMonitorTemperature eventInfo = new EventArgsMonitorTemperature(Temperatures);
+			EventArgsMonitorTemperature eventInfo = new(Temperatures);
 			PrintTemperatyreCelsia?.Invoke(this, eventInfo);
 		}
 
