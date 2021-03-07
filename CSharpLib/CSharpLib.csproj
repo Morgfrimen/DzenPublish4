@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../platform.target"/>
+	<PropertyGroup>
+		<LangVersion>9.0</LangVersion>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
-	  <LangVersion>9.0</LangVersion>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Temperature\Temperature.fsproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\Temperature\Temperature.fsproj" />
+	</ItemGroup>
 
 </Project>

@@ -1,12 +1,11 @@
 <Project Sdk="Microsoft.NET.Sdk">
+	<Import Project="../platform.target"/>
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <OutputType>Exe</OutputType>
-    <TargetFramework>net6.0</TargetFramework>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\CSharpLib\CSharpLib.csproj" />
-  </ItemGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\CSharpLib\CSharpLib.csproj" />
+	</ItemGroup>
 
 </Project>
